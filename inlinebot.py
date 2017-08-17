@@ -49,7 +49,7 @@ def load_json():
 # update. Error handlers also receive the raised TelegramError object in error.
 def start(bot, update):
     update.message.reply_text('想跟人起爭議嗎？找"圖戰機器人"吧！\n使用方法：\n@IMwarbot 黑人問號\n\n按 /help 獲得更多資訊！')
-    bot.send_photo(chat_id=update.message.chat_id, photo='http://i.imgur.com/0yEJDZJ.jpg')
+    bot.send_photo(chat_id=update.message.chat_id, photo='https://d17ixjpazu3j94.cloudfront.net/images/2017/05/05/149397168373560x6eebyS1u.jpg')
 
 def help(bot, update):
     update.message.reply_text('本機器人收錄近期知名梗圖,內容包含"鸚鵡兄弟"、"中國有嘻哈"、"靠北工程師"、"HTTP貓"...等等')
